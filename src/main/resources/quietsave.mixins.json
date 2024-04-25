@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "wyspr.quietsave.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CommandsMixin",
+    "MinecraftServerMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
